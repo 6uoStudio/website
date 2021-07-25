@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*footer*/
+
+.footer-general{
+
+	bottom: 0;
+	padding: 20px 0px;
+	text-align:center;
+	background-color: rgba( 69, 69, 69, 1 );
+	color:rgba( 255, 255, 255, 1 );
+	
+}
+
+.footer-general ul {
+
+	padding:0;
+	list-style:none;
+	text-align:center;
+	font-size:18px;
+	line-height:1.6;
+	margin-bottom: 20px;
+
+}
+  
+.footer-general li {
+
+	padding: 20px 20px;
+	display: inline-block;
+
+}
+
+.footer-general ul a {
+
+	color: rgba( 255, 255, 255, 1 );
+	text-decoration:none;
+	opacity:0.8;
+
+}
+
+.footer-general ul a:hover {
+	opacity: 1.0;
+}
+
+.footer-general .social {
+
+	text-align:center;
+
+}
+
+.footer-general .social > a {
+
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color: rgba( 255, 255, 255, 1 );
+	opacity:0.75;
+	
+}
+
+.footer-general .social > a:hover {
+	opacity: 1.0;
+}

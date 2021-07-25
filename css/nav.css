@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("rwd.css");
+
+/*header*/
+header{
+	
+	position: fixed;
+	padding: 0px 0px;
+	width: 100%;
+	top: 0;
+	background: rgba( 255, 255, 255, 1 );
+	z-index: 10000;
+
+}
+
+.logo{
+	position: relative;
+	left: 80px;
+}
+
+.logo:hover{
+	cursor: pointer;
+}
+
+
+/*=============== menu ==============*/
+
+.menu{
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:30px;
+	height:30px;
+	font-size:30px;
+	display:block;
+}
+
+.menu:hover{
+	cursor: pointer;
+}
+
+/*=============== nav ===============*/
+
+nav{
+	width: 100%;
+	text-align: right;
+	margin:auto;
+	background:rgba( 184, 212, 50, 1 );
+	font-size: 22px;
+}
+
+nav li{
+	display: block;
+	margin: 0px 20px 0px;
+	border-bottom:solid rgba( 69, 69, 69, 1 ) 1px;
+}
+
+nav li a{
+	display: inline-block;
+	width: 100%;
+	line-height:60px;
+	color: rgba( 69, 69, 69, 1 );
+	text-decoration:none;
+	text-align: center;
+}
+
+nav li a:hover{
+	background:rgba( 136, 207, 193, 1 );
+}
+
+/*===================================*/
+
+/* For tablets */
+@media only screen and (min-width: 768px) { 
+	nav{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index:2000;
+	}
+	nav li{
+		display: inline-block;
+		border-bottom:solid rgba(242, 242, 242, 1) 0px; /*無線*/
+	}
+	.menu{
+		display:none;	
+	}
+	
+}
+
+/* For desktop */
+@media only screen and (min-width: 1200px) {
+
+}
